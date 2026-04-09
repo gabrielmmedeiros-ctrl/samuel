@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vintage</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Ícones -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+    <h1>✨ Vintage</h1>
+    <p>Peças únicas com estilo</p>
+</header>
+
+<section class="produtos">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd47" alt="">
+        <h3>Vestido Floral</h3>
+        <p>R$ 59,90</p>
+        <button onclick="addCarrinho('Vestido Floral', 59.90)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246" alt="">
+        <h3>Calça Jeans</h3>
+        <p>R$ 89,90</p>
+        <button onclick="addCarrinho('Jaqueta Jeans', 89.90)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="">
+        <h3>Camisetas</h3>
+        <p>R$ 49,90</p>
+        <button onclick="addCarrinho('Bolsa Vintage', 49.90)">Adicionar</button>
+    </div>
+
+</section>
+
+<section class="carrinho">
+    <h2>🛒 Carrinho</h2>
+    <ul id="listaCarrinho"></ul>
+    <h3 id="total">Total: R$ 0</h3>
+</section>
+
+<!-- Botão WhatsApp -->
+<a href="https://wa.me/5599999999999" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+<footer>
+    <p>📧 Email: <a href="mailto:brechochic@email.com">brechochic@email.com</a></p>
+    <p>📸 Instagram: <a href="https://instagram.com/brechochic" target="_blank">@brechochic</a></p>
+</footer>
+
+</body>
+</html>
